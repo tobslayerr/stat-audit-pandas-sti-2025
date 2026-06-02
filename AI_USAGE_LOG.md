@@ -6,7 +6,7 @@
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
 | Zaidan | Data Engineer | Gemini | ~20% | No |
 | Ihsan | Estimation Analyst | Gemini | ~20% | No |
-| Kevin Christman Lumban Tobing | Inference Analyst | None | 0% | No |
+| Kevin Christman Lumban Tobing | Inference Analyst | Gemini | ~5% | No |
 | Safani | Hypothesis Analyst | None | 0% | No |
 | Fernando | Computation Analyst | None | 0% | No |
 
@@ -25,7 +25,7 @@
 ### Member C — Kevin Christman Lumban Tobing
 | # | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1 | - | None | - | - | Tahap Inferensi (Minggu 12) belum dimulai pada eksekusi Checkpoint 1. Direncanakan 100% manual tanpa bantuan AI untuk fase selanjutnya. |
+| 1 | Memeriksa sintaks fungsi library | Gemini | "Bagaimana cara mendapatkan batas persentil distribusi Beta menggunakan SciPy di Python?" | Ya — disesuaikan dengan parameter lokal. | AI sangat efisien untuk mempercepat pemahaman terhadap dokumentasi library `scipy.stats.beta.ppf`, sehingga saya bisa fokus mengimplementasikan batas probabilitas secara manual tanpa takut terjadi *syntax error*. |
 
 ### Member D — Safani
 | # | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
