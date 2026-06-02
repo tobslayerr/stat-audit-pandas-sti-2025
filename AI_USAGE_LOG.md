@@ -27,10 +27,10 @@
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
 | 1 | Memeriksa sintaks fungsi library | Gemini | "Bagaimana cara mendapatkan batas persentil distribusi Beta menggunakan SciPy di Python?" | Ya — disesuaikan dengan parameter lokal. | AI sangat efisien untuk mempercepat pemahaman terhadap dokumentasi library `scipy.stats.beta.ppf`, sehingga saya bisa fokus mengimplementasikan batas probabilitas secara manual tanpa takut terjadi *syntax error*. |
 
-### Member D — Safani
-| # | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
-| --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1 | - | None | - | - | Tahap Pengujian Hipotesis (Minggu 13) belum dimulai pada eksekusi Checkpoint 1. Direncanakan 100% manual tanpa bantuan AI untuk fase selanjutnya. |
+### Member D — Safani Nuraini
+**Tools used:** None
+**Task:** Pengujian Hipotesis (H0/Ha, Z-Test, Interpretasi P-Value).
+**Keterangan:** Seluruh analisis pada Modul 04 dikerjakan 100% secara manual tanpa bantuan AI untuk mematuhi larangan penggunaan AI pada penarikan kesimpulan statistik.
 
 ### Member E — Fernando
 | # | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
