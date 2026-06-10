@@ -8,7 +8,7 @@
 | Ihsan | Estimation Analyst | Gemini | ~20% | No |
 | Kevin Christman Lumban Tobing | Inference Analyst | Gemini | ~5% | No |
 | Safani | Hypothesis Analyst | None | 0% | No |
-| Fernando | Computation Analyst | None | 0% | No |
+| Fernando | Computation Analyst | ChatGPT | ~5% | No |
 
 ## Per-Member Detail
 
@@ -36,11 +36,12 @@
 | # | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
 | 1 | Setup repository & dokumentasi | None | - | - | Penyusunan struktur direktori dan dokumen administratif Checkpoint 1 dilakukan murni manual. Tahap komputasi simulasi (Minggu 14) belum dimulai. |
+| 2 | Pencarian metode hash unik | ChatGPT | Bagaimana cara generate multiple hash index yang unik di Python untuk Bloom Filter menggunakan satu library bawaan? | Ya — mengadaptasi saran penggunaan hashlib.md5 ke dalam struktur class BloomFilter. | Jawaban sangat efisien dan membantu. Sisa algoritma stokastik Monte Carlo dan MCMC Knapsack berhasil saya bangun secara mandiri tanpa bantuan AI.|
 
 ## Group Reflection
 
-Selama pengerjaan Checkpoint 1 pada audit statistik ini, pendekatan kelompok kami terhadap penggunaan AI sangat terukur. Pada tahap awal (*Data Engineering* dan *Estimation*), kami menggunakan AI (Gemini) secara strategis untuk menangani tugas-tugas penulisan *boilerplate code*. AI terbukti sangat tangkas dan efisien dalam merancang skema *loop pagination* untuk berinteraksi dengan API GitHub, serta menyusun kerangka dasar fungsi Python untuk *Maximum Likelihood Estimation* (MLE). Hal ini sangat menghemat waktu teknis penyiapan data kami.
+Perjalanan tiga minggu pengerjaan audit statistik ini memberikan perspektif mendalam mengenai kolaborasi manusia dan AI dalam riset data. Pada fase awal (Data Engineering dan Estimation), kami menggunakan AI (Gemini) secara strategis untuk scaffolding teknis dan penulisan boilerplate code, seperti penyusunan loop pagination API GitHub. Penggunaan ini terbukti sangat efisien dalam mempercepat penyiapan lingkungan kerja dan struktur dasar modul.
 
-Namun, kami menemukan bahwa hasil keluaran AI membutuhkan koreksi dan pengawasan yang ketat ketika dihadapkan pada spesifikasi matematis yang kaku. Misalnya, pada saat penyusunan fungsi estimasi parameter, AI memberikan struktur dasar yang baik, tetapi Member B tetap harus memodifikasi parameternya secara manual agar benar-benar selaras dengan rumus konjugasi Beta pada referensi utama kami (Buku Tsun, 2020). 
+Namun, seiring pengerjaan, kami menyadari bahwa AI memiliki keterbatasan dalam ketelitian matematis yang kaku. Kami melakukan koreksi manual yang signifikan pada setiap modul untuk memastikan kesesuaian formula dengan Buku Tsun (2020), di mana AI seringkali kurang presisi dalam merujuk halaman atau notasi spesifik.
 
-Sebagai komitmen integritas untuk fase selanjutnya (Checkpoint 2 dan 3), kelompok kami secara tegas bersepakat untuk **TIDAK** menggunakan AI sama sekali pada seluruh penulisan interpretasi analitis (sel *Markdown*), serta secara penuh pada fase Inferensi, Pengujian Hipotesis, dan Simulasi Stokastik. Kami menyadari bahwa mendelegasikan penarikan kesimpulan *p-value* dan penjabaran *Confidence Interval* kepada AI akan menghilangkan esensi pemahaman kami terhadap data. Oleh karena itu, Member C, D, dan E akan bekerja murni 100% tanpa AI, memastikan setiap argumen di Laporan Kesehatan Statistik akhir nanti murni merupakan hasil pemikiran analitis dan komputasional kami sendiri.
+Seiring berjalannya proyek, kami secara tegas mengubah kebijakan internal: kami memilih untuk TIDAK menggunakan AI sama sekali dalam penulisan interpretasi analitis (sel Markdown), perumusan hipotesis (H0/Ha), serta penyusunan rekomendasi manajerial. Kami menyadari bahwa mendelegasikan bagian tersebut kepada AI akan menghilangkan esensi pemahaman kami terhadap data. Momen krusial tersebut adalah saat merumuskan kesimpulan Z-Test dan interpretasi Confidence Interval; kami memutuskan untuk menulisnya murni dari hasil pemikiran tim agar bebas dari ambiguitas istilah (seperti menghindari frasa "accept H0"). Pengalaman ini mengajarkan kami bahwa AI adalah alat akselerasi teknis, namun nalar analitis tetap menjadi tanggung jawab mutlak kami sebagai peneliti. Hasil akhirnya adalah laporan yang tidak hanya akurat secara komputasi, tetapi juga tajam dalam narasi manajerial, yang membuktikan penguasaan kami atas materi perkuliahan secara menyeluruh.
